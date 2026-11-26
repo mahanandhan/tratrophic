@@ -1,0 +1,67 @@
+
+# ==============================
+# PYTHON
+# ==============================
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# FRONTEND (REACT / VITE)
+# ==============================
+
+# Node dependencies
+node_modules/
+
+# Frontend build output
+dist/
+
+# Vite cache
+.vite/
+
+# ==============================
+# ENVIRONMENT VARIABLES
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# EDITORS
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+# OPERATING SYSTEM
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# LOG FILES
+# ==============================
+
+*.log
+npm-debug.log*
