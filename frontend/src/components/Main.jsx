@@ -79,7 +79,16 @@ function Main() {
             
 
             <span>
-              <FaGithub size={20} className="text-neutral-400 hover:text-white cursor-pointer" />
+              <a
+                href="https://github.com/mahanandhan/tratrophic"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub
+                  size={20}
+                  className="text-neutral-400 hover:text-white cursor-pointer"
+                />
+              </a>
             </span>
           </div>
 
