@@ -340,7 +340,7 @@ function LinearRegression() {
 
           <CodeBlock
             language="python"
-            code={`from linear_model import LinearRegression`}
+            code={`from tratrophicai import LinearRegression`}
           />
 
           <Explanation>
@@ -482,7 +482,7 @@ print(predictions)`}
 
           <CodeBlock
             language="python"
-            code={`from linear_model import LinearRegression
+            code={`from tratrophicai import LinearRegression
 
 # Training data
 X_train = [
